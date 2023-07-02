@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: tahoma;
+  /* background-color: #023047; */
+  /* background-color: #457b9d; */
+  background-image: linear-gradient(to left, #20a39c, #024642);
+  color: white;
+}
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 1em;
+}
+input,
+textarea,
+select {
+  width: 100%;
+  /* background-color: #1d3557; */
+  /* color: white; */
+  border: none;
+  border-radius: 3px;
+}
+.radio {
+  width: unset;
+}
+.check {
+  width: unset;
+}
+input,
+select {
+  height: 2em;
+}
+
+#submit {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+  height: 3em;
+  border-radius: 4px;
+}
+
+.form-container {
+  background-color: rgba(0, 255, 242, 0.13);
+  width: 40vw;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 20px;
+}

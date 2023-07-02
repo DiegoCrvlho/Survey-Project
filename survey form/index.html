@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Diego's Survey</h1>
+    <p id="description">Thank you for submitting this form</p>
+    <div class="form-container">
+      <form action="" id="survey-form">
+        <label for="name-label" id="name-label"
+          >Name
+          <input id="name" type="text" required placeholder="Enter your name"
+        /></label>
+        <label for="email" id="email-label"
+          >Email
+          <input
+            id="email"
+            type="email"
+            required
+            placeholder="Enter your email"
+        /></label>
+        <label for="number-label" id="number-label"
+          >Age
+          <input
+            id="number"
+            type="number"
+            required
+            min="18"
+            placeholder="Enter your age"
+            max="120"
+        /></label>
+        <label for="dropdown"
+          >How do you find me?
+          <select name="" id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Instagram</option>
+            <option value="2">Twitter</option>
+            <option value="3">Other</option>
+          </select>
+        </label>
+        <label for="radio">Did you like this survey form?</label>
+        <label for="radio"
+          ><input type="radio" name="radio" value="1" class="radio" />
+          Definitely</label
+        >
+        <label for=""
+          ><input type="radio" name="radio" value="2" class="radio" />
+          Maybe</label
+        >
+        <label for=""
+          ><input type="radio" name="radio" value="3" class="radio" /> Not
+          sure</label
+        >
+        <label for="checkboxes">How can i improve this form</label>
+        <label for="first"
+          ><input type="checkbox" value="1" class="check" /> You need to insert
+          CSS file. here</label
+        >
+        <label for="second"
+          ><input type="checkbox" value="2" class="check" /> You need to style
+          this. here</label
+        >
+        <label for="third"
+          ><input type="checkbox" value="3" class="check" /> You need to use a
+          database here. here</label
+        >
+
+        <label for="textarea"
+          >What languages do you like to code?
+          <textarea
+            name="code"
+            id="textarea"
+            cols="30"
+            rows="5"
+            placeholder="I like coding in Javascript..."
+          ></textarea>
+        </label>
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>
